@@ -1,0 +1,66 @@
+<odoo>
+    <data>
+        <record id="currency_update_state_action_state" model="ir.ui.view">
+            <field name="name">Update_State</field>
+            <field name="model">res.currency.rate.thailand.config.state</field>
+            <field name="arch" type="xml">
+                <form>
+
+                    <group colspan="4">
+                        <group col="4">
+                            <field name="name"/>
+                        </group>
+                    </group>
+                    <group colspan="4">
+
+                        <group>
+                            <field name="date_start"/>
+                        </group>
+                        <group>
+                            <field name="date_end"/>
+                        </group>
+                    </group>
+
+                    <footer>
+                        <button name="update_state_currency" string="Update Currency" type="object"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+
+        <act_window name="Update Currency"
+                    id="currency_update_state_action"
+                    res_model="res.currency.rate.thailand.config.state"
+                    binding_model="res.currency.rate.thailand.config"
+                    binding_views="form"
+                    view_mode="form"
+                    target="new"
+        />
+
+        <!--        https://learnopenerp.blogspot.com/2017/12/how-to-display-confirmation-display-box.html-->
+        <!--                <record model="ir.actions.act_window" id="test_action">-->
+        <!--                    <field name="name">A Test Action</field>-->
+        <!--                    <field name="res_model">res.currency.rate.thailand.config.state</field>-->
+        <!--                    <field name="view_id" ref="currency_update_state_action_state"/>-->
+        <!--                    &lt;!&ndash;            <field name="view_mode">graph</field>&ndash;&gt;-->
+        <!--                    <field name="view_mode">form</field>-->
+        <!--                    <field name="target">new</field>-->
+        <!--                </record>-->
+        <!--        <record id="wizard_message_currency_action" model="ir.actions.act_window">-->
+
+
+        <!--https://www.cybrosys.com/blog/add-new-button-inside-action-menu-in-odoo-13-->
+        <!--        <act_window name="Update State"-->
+        <!--            id="currency_update_state_action"-->
+        <!--            res_model="update.state"-->
+        <!--            binding_model="sale.order"-->
+        <!--            binding_views="form"-->
+        <!--            view_mode="list"-->
+        <!--            target="new"-->
+        <!--        />-->
+
+
+    </data>
+</odoo>

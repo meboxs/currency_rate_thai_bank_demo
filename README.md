@@ -1,4 +1,5 @@
-What you will learn?
+odoo  update Currency Rates of Bank Thailand 
+
 configure user access.
 ![1](https://user-images.githubusercontent.com/120319868/206908935-3c3ed967-e719-40c2-8368-e315717ee5ee.png)
 

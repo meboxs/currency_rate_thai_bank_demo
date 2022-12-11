@@ -7,6 +7,8 @@
 ==============
 Description related to Currency Rates of Bank Thailand DEMO.
     """,
+    'price':0,
+    'currency': 'EUR',
     'author': "boxs.me",
     'website': "http://www.boxs.me",
     'category': 'Tools',

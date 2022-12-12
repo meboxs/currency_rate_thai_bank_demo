@@ -1,18 +1,13 @@
-# -*- coding: utf-8 -*-
 {
     'name': "Currency Rates of Bank Thailand DEMO",  # Module title
     'summary': "Currency Rates of Bank Thailand DEMO",  # Module subtitle phrase
-    'description': """
-
-==============
-Description related to Currency Rates of Bank Thailand DEMO.
-    """,
+    'description': "Description related to Currency Rates of Bank Thailand DEMO.",
     'price':0,
     'currency': 'EUR',
     'author': "boxs.me",
     'website': "http://www.boxs.me",
     'category': 'Tools',
-    'version': '15.0.1',
+    'version": "15.0.1.1.1',
     'installable': True,
     'application': True,
     'auto_install': False,
